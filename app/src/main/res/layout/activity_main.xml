@@ -11,7 +11,7 @@
     tools:context="css.cis3334.pizzaorder.MainActivity">
 
     <CheckBox
-        android:text="Delivery (add $2.50)"
+        android:text="@string/deliver"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/checkBoxDelivery"
@@ -19,7 +19,7 @@
         android:layout_alignStart="@+id/checkBoxCheese" />
 
     <Button
-        android:text="Calculate Total"
+        android:text="@string/calculate"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@+id/checkBoxDelivery"
@@ -29,7 +29,7 @@
         android:onClick="onClickCalcButton" />
 
     <TextView
-        android:text="Total is "
+        android:text="@string/total"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@+id/button"
@@ -46,7 +46,7 @@
         android:id="@+id/RadioGroup">
 
         <RadioButton
-            android:text="Small ($7.00)"
+            android:text="@string/small"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:id="@+id/radioButtonSmall"
@@ -54,7 +54,7 @@
             />
 
         <RadioButton
-            android:text="Medium ($9.00)"
+            android:text="@string/medium"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:id="@+id/radioButtonMedium"
@@ -62,7 +62,7 @@
             android:layout_toEndOf="@+id/radioGroup2" />
 
         <RadioButton
-            android:text="Large ($13.00)"
+            android:text="@string/large"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:id="@+id/radioButtonLarge"
@@ -72,7 +72,7 @@
     </RadioGroup>
 
     <TextView
-        android:text="Extras"
+        android:text="@string/extras"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/textView2"
@@ -81,7 +81,7 @@
         android:layout_marginTop="15dp"/>
 
     <CheckBox
-        android:text="Extra Cheese (add $1.75)"
+        android:text="@string/cheese"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/checkBoxCheese"
